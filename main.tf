@@ -53,4 +53,3 @@ module "prod" {
   ops_arn = data.aws_iam_role.ops.arn
   prefix  = var.prefix
 }
-

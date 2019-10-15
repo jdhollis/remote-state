@@ -12,4 +12,3 @@ output "outputs" {
     locking_table_name = aws_dynamodb_table.state_locking.id
   }
 }
-

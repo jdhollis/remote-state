@@ -16,4 +16,3 @@ output "env" {
 output "region" {
   value = var.region
 }
-

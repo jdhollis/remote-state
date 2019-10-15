@@ -23,4 +23,3 @@ resource "aws_dynamodb_table" "state_locking" {
     type = "S"
   }
 }
-
