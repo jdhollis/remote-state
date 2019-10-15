@@ -1,15 +1,16 @@
 terraform {
   required_version = "~> 0.12.0"
 
-#  backend "s3" {
-#    bucket         = "[PREFIX]-tools-terraform-state"
-#    key            = "remote-state/terraform.tfstate"
-#    region         = "us-east-1"
-#    dynamodb_table = "[PREFIX]-tools-terraform-state-locking"
-#    profile        = "ops-tools"
-#    encrypt        = true
-#    kms_key_id     = "[KMS_KEY_ID]"
-#  }
+  # TODO: Uncomment and update backend configuration here.
+  #  backend "s3" {
+  #    bucket         = "[PREFIX]-tools-terraform-state"
+  #    key            = "remote-state/terraform.tfstate"
+  #    region         = "us-east-1"
+  #    dynamodb_table = "[PREFIX]-tools-terraform-state-locking"
+  #    profile        = "ops-tools"
+  #    encrypt        = true
+  #    kms_key_id     = "[KMS_KEY_ID]"
+  #  }
 }
 
 provider "aws" {
